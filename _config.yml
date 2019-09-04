@@ -1,8 +1,8 @@
 # Site Info
-title: hyblekorea Lanyon
-tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://hyblekorea.github.io" target="_blank">@hyblekorea</a>.'
-baseurl: "/lanyon"
+title: 하이퍼레저 블록체인 연구회, Hyble
+tagline: '하이퍼레저 블록체인 연구회, Hyble'
+description: '하이퍼레저 패브릭을 연구하는 블록체인 연구회입니다.'
+baseurl: ""
 url: http://hyblekorea.github.io
 logo: '/public/logo.png'
 
@@ -25,25 +25,26 @@ version: 1.0.0
 # About/contact
 author:
   name: hyblekorea
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  description: hyblekorea
+  # gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
+    # linkedin:  https://www.linkedin.com/in/lizhihao
     github:    https://github.com/hyblekorea
     # facebook:  <hide>
     # twitter:   https://twitter.com/Li_Zhihao
     # weibo:     http://weibo.com/41173780
-    # email:     mailto:hyblekorea@gmail.com
+    email:     mailto:hyblekorea@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
-    - '/'
-  Blog:           
+  Home:
     - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
+  Categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { 하이퍼레저 패브릭: '/blog/categories/#fabric' }
+    # - { Tags: '/blog/tags/' }
+  About:
     - '/about/'
   Github Project: 
     - 'http://hyblekorea.github.io/'
@@ -52,12 +53,11 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+disqus_short_name: 'hyblekorea-github-io' # leave blank if you don't want disqus
 
+# Use the following plug-ins
+# gems:
+#   - jekyll-paginate
